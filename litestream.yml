@@ -9,6 +9,5 @@ dbs:
         bucket: "${LITESTREAM_BUCKET}"
         path: "${LITESTREAM_PATH}"
         endpoint: "${LITESTREAM_URL}"
-        region: "${LITESTREAM_REGION}"
         retention: 72h
         snapshot-interval: 12h
