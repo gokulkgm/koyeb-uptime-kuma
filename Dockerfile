@@ -18,4 +18,6 @@ COPY run.sh /usr/local/bin/run.sh
 
 EXPOSE ${UPTIME_KUMA_PORT}
 
+RUN ["chmod", "+x", "/usr/local/bin/run.sh"]
+
 CMD [ "/usr/local/bin/run.sh" ]
